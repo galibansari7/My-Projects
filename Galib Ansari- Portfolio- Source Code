@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galib Ansari- Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            width: 100vw;
+            background-color: rgb(92, 13, 167);
+            color: white;
+            padding-top: 3vh;
+            padding-left: 1vw;
+            padding-bottom: 2vh;
+        }
+
+        .postheader {
+            font-family: cursive;
+        }
+
+        h1 {
+            margin-bottom: 2vh;
+        }
+
+        .ProfilePic {
+            border: 2px solid rgb(92, 13, 167);
+            border-radius: 50px;
+            float: right;
+            margin-top: 5vh;
+            margin-right: 1vw;
+        }
+
+        .objective {
+            font-size: large;
+            font-weight: 500;
+            text-decoration: underline;
+            margin-bottom: 2vh;
+            margin-top: 5vh;
+            color: rgb(92, 13, 167);
+        }
+
+        .boldlarge {
+            font-size: large;
+            font-weight: 500;
+            text-decoration: underline;
+            margin-bottom: 2vh;
+            color: rgb(97, 8, 180);
+        }
+
+        .declare {
+            margin-bottom: 40vh;
+        }
+
+        .photo {
+            border-radius: 50px;
+            border: 2px solid rgb(98, 10, 180);
+            float: right;
+        }
+
+        table {
+            width: 100vw;
+            row-gap: 100px;
+            border: 1px solid black;
+            margin-bottom: 4vh;
+            padding: 1vh 0;
+        }
+
+        th {
+            text-decoration: underline;
+            font-size: large;
+        }
+
+        body {
+            color: rgb(97, 8, 180);
+        }
+
+        .educationdata {
+            width: 100vw;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: 7vh auto;
+            grid-gap: 10px 5px;
+            margin-bottom: 5vh;
+        }
+
+        .itemhead {
+            font-weight: 400;
+            font-size: larger;
+            background-color: rgb(190, 144, 233);
+            color: black;
+            border: 1px solid black;
+            box-sizing: border-box;
+        }
+
+        .item {
+            background-color: rgb(206, 178, 233);
+            color: black;
+            border: 1px solid black;
+            box-sizing: border-box;
+        }
+
+        ul {
+            margin-left: 30px;
+        }
+
+        .strength {
+            margin-bottom: 5vh;
+        }
+
+        .family {
+            margin-bottom: 3vh;
+        }
+
+        .hobbies {
+            margin-bottom: 5vh;
+        }
+
+        .foot {
+            border-top: 3px double;
+        }
+
+        .footer {
+            margin-top: 2vh;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>MD GALIB ANSARI</h1>
+        <div class="postheader">
+            <P>Koldiha, Giridih<br>PO+ PS+ DIST.- Giridih<br>Jharkhand, 815301<br>
+                Mob: 7369000658<br>E-mail: nizamigalib@gmail.com</P>
+        </div>
+    </div>
+
+    <img class="ProfilePic" width="20%" src="imgs/MyPic.jpg" alt="Profile Pic.">
+
+    <div class="objective">
+        Objective:
+    </div>
+
+    <div class="declare">
+        <p>Want to become a successful software Engineer and want to work with a multinational IT Company.</p>
+    </div>
+
+
+    <div class="educationdata">
+        <div class="itemhead">Course</div>
+        <div class="itemhead">School/Collete/Institute</div>
+        <div class="itemhead">Board/University</div>
+        <div class="itemhead">Percentage</div>
+
+        <div class="item">Matriculation</div>
+        <div class="item">Giridih +2 high School, Giridih</div>
+        <div class="item">JAC</div>
+        <div class="item">67.4</div>
+
+        <div class="item">Intermediate</div>
+        <div class="item">Giridih +2 high School, Giridih</div>
+        <div class="item">JAC</div>
+        <div class="item">68.6</div>
+
+        <div class="item">Appreciation of Digital Literacy</div>
+        <div class="item">CSC</div>
+        <div class="item">NIOS</div>
+        <div class="item">---</div>
+
+        <div class="item">BL Accent & BL Fundus</div>
+        <div class="item">British Lingua Giridih</div>
+        <div class="item">British Lingua Laxmi Nagar Delhi</div>
+        <div class="item">83</div>
+
+        <div class="item">Domestic Data Entry Operator</div>
+        <div class="item">Global Institute Giridih</div>
+        <div class="item">NIOS</div>
+        <div class="item">---</div>
+
+        <div class="item">Let's break the Chain of Covid-19 Infection</div>
+        <div class="item">WHO Website</div>
+        <div class="item">Mohammad Bin Rashid University of Medicine & Health Sciences</div>
+        <div class="item">---</div>
+        <div class="item">B. Tech.</div>
+        <div class="item">Surabhi College of Engineering & Technology Bhopal</div>
+        <div class="item">RGPV</div>
+        <div class="item">Persuing</div>
+
+        <div class="item">HTML</div>
+        <div class="item">CodeWithHarry- YouTube</div>
+        <div class="item">---</div>
+        <div class="item">Completed</div>
+
+        <div class="item">CSS</div>
+        <div class="item">CodeWithHarry- YouTube</div>
+        <div class="item">---</div>
+        <div class="item">Learning</div>
+
+        <div class="item">JavaSctipt</div>
+        <div class="item">CodeWithHarry- YouTube</div>
+        <div class="item">---</div>
+        <div class="item">Learning</div>
+    </div>
+
+    <div class="boldlarge">Strength:</div>
+    <div class="strength">
+        <ul>
+            <li>Positive thinking</li>
+            <li>Stress tolerance</li>
+            <li>Time punctuality</li>
+            <li>Flexible & Adjustable</li>
+        </ul>
+    </div>
+
+    <div class="boldlarge">
+        Personal Profile:
+    </div>
+    <div class="family">
+        <p>Father's Name: Mr. Md Nezamuddin Ansari</p>
+        <p>Mother's Name: Tabassum Parween</p>
+        <p>Sex: Male</p>
+        <p>DOB: 12<sup>th</sup> Aug, 2001</p>
+        <p>Nationality: Indian</p>
+        <p>Language known: Hindi, English, Urdu, Khortha</p>
+        <p>Marital status: Unmarried</p>
+    </div>
+    <div class="boldlarge">
+        Hobbies:
+    </div>
+    <div class="hobbies">
+        <ul>
+            <li>I like to work on a Computer system</li>
+            <li>I like to sing</li>
+            <li>I like to do workout</li>
+            <li>I like to stay physically & mentally fit</li>
+            <li>I like to learn Technical Stuffs</li>
+        </ul>
+    </div>
+    <hr class="foot">
+
+    <div class="footer">
+        <a href="https://www.instagram.com/nizamigalib/?hl=en" target="_blank"><img width="40vw"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGs1LETqnEyuX9xvRmPjHK7ulEtLeXSpYLHQ&s"
+                alt="Instagram"></a>
+        <a href="https://www.youtube.com/@Galib_Ansari"><img width="40vw"
+                src="data:image/png;base64,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"
+                alt="Youtube"></a>
+    </div>
+</body>
+
+</html>

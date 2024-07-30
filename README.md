@@ -1,2 +1,2 @@
 # My-Projects
-It contains my Projects created by me.
+It contains Projects created by me.

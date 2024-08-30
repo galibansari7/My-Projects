@@ -93,8 +93,8 @@
             transition-timing-function: ease-in-out;
         }
         footer div img:hover{
-            height: 45px;
-            width: 45px;
+            height: 43px;
+            width: 43px;
             transition-duration: 0.1s;
             transition-property: all;
             transition-timing-function: ease-in-out;
